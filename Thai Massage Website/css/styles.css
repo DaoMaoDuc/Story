@@ -1,0 +1,312 @@
+/*#1D966C green*/
+/*#2d9ac0 blue*/
+/*#daa520 //  rgb(218,165,32) gold*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h3 {
+  color: #daa520; /*gold*/
+  font-family: "Playfair Display";
+}
+
+.madamThaoFont{
+  font-family: "Monsieur La Doulaise";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+
+.big-heading {
+  padding-top: 2%;
+  font-family: "Playfair Display";
+  font-size: 10rem;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.handwriting-heading{
+  font-family: "The Nautigal";
+  font-size: 7rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #daa520; /*rosa*/
+
+}
+
+.section-heading {
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background: rgba(218,165,32,0.55);
+  color: #fff;
+  height: 70vh;
+}
+
+.colored-section-testimonials {
+  color: #fff;
+  background-image: linear-gradient(to bottom right, rgba(218,165,32,0.8), #fff);
+  height: 70vh;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.row_space {
+  padding-top: 3rem;
+}
+
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat-Light";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-bg-color{
+  background-color: rgb(218,165,32)
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #fff;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+.overlay{
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+.background-image{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("entryImage.jpg");
+}
+
+.background-image_small{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url("entryImage.jpg");
+}
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.flower-image {
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+
+.flower-image-contact {
+  width: 60%;
+  height: auto;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+
+.feature-title {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+  color: #daa520;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+.testimonial-text {
+  color: #daa520;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-customer{
+  color: #daa520;
+}
+
+/* Pricing Section */
+
+.header-pricing-section{
+  font-family: "Playfair Display";
+  padding-top: 2%;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.btn-primary {
+   color: #2d9ac0;
+}
+
+.card{
+  height: 1
+}
+
+.massage-image {
+  width: 80%;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.massage-image_ {
+  width: 80%;
+  border-radius: 100%;
+  margin: 20px;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.price-list {
+  font-size:18px;
+  margin-top: 1rem;
+  text-decoration-line: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: #D3D3D3;
+  word-spacing: 10rem;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+  .price-list {
+    word-spacing: 5rem;
+  }
+}
+
+@media (max-width: 861px) {
+  .price-list {
+    word-spacing: 4rem;
+  }
+}
+
+@media (max-width: 792px) {
+  .price-list {
+    word-spacing: 3rem;
+  }
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+}
