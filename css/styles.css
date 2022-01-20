@@ -63,6 +63,16 @@ p {
 
 /* Sections */
 
+.discount-section {
+  background: #ff4c68;
+  height: 10vh;
+}
+
+#discount {
+  color: #fff;
+  text-align: center;
+}
+
 .colored-section {
   background: rgba(218,165,32,0.55);
   color: #fff;
