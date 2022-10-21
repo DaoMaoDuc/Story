@@ -120,6 +120,12 @@ p {
   color: #fff;
 }
 
+.nav-link-impressum {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+  color: #ADD8E6;
+}
+
 /* Buttons */
 
 .download-button {
